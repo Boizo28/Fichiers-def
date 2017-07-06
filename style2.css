@@ -1,0 +1,133 @@
+/* style2.css */
+
+body{
+  background: pink;
+  color: #41A3C0; 
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:0;
+}
+
+nav{
+  display:inline;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+} 
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: black; 
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+p{
+  color: white;
+}
+
+a { 
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#logo{
+  color: red;
+  font-size: 85px;
+  font-family: 'Lobster', cursive;
+}
+
+/* Mis en forme de la baseline */
+#baseline{
+  background-color: #00B2A7;
+  text-align: center;
+  background-size: cover;
+  height: 400px;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  background: url(http://fr.canoe.ca/archives/hommes/seduction/media/2016/08/20160831-142154-g.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover; 
+}
+Fin de la conversation
+Saisissez un message...
+
+Sélect. fichiers
+Sélect. fichiers
+
+
+#baseline h1 {
+  color: #E1CE9A ;
+  font-size: 50px;
+}
+
+#baseline a {
+  color: #82C46C;
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
+}
+
+
+
+.feature,.defi{
+  border: 1px solid #F2F2F2;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+  background: #143BBA;
+  }
+
+ #apropos{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+#logo{
+  color: red;
+  font-size: 85px;
+  font-family: 'Gloria Hallelujah', cursive;
+  float: left;
+  margin-left: 50px;
+}
+
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
+}
+
